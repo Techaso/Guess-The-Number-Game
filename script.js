@@ -49,6 +49,9 @@ function playGame(){
   // Reset guesses
   guesses = [];
 
+  // Reset the input field
+  document.getElementById("number-guess").value = null;
+
   // Reset guess Result
   document.getElementById("result").innerHTML = "";
   
